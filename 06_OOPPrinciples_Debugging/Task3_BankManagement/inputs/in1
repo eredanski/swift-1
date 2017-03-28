@@ -1,0 +1,17 @@
+OPEN gogo 1234 Gosho 1234567891
+OPEN pepo 5678 Pesho 1234569988
+OPEN vanko str0ng Ivan 9101012911
+OPEN mimi mimi Maria 8182901028
+OPEN alx alx Alex 9101012911
+OPEN moni moni Moni 8182901028
+CLOSE alx alx
+OPEN moni moni Moni 8182901028
+DEPOSIT gogo 50
+DEPOSIT pepo 100
+DEPOSIT vanko 2000
+DEPOSIT mimi 678.90
+DEPOSIT mimi -1100
+TRANSFER gogo 1234 20 vanko
+WITHDRAW vanko str0ng 3000
+WITHDRAW vanko str0ng 1050
+END

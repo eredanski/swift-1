@@ -1,0 +1,15 @@
+MAKE acdc.mp3 /music CONTENT=0101010100101001010100111010101010100010101
+MAKE ozzy.mp3 /music CONTENT=010101111101010111
+MAKE rock.m3u /desktop acdc.mp3 ozzy.mp3
+MOVE acdc.mp3 /music/acdc
+INFO acdc.mp3
+EXEC rock.m3u
+EXEC acdc.mp3
+MAKE ironman.avi /movies CONTENT=11111111111111111111111111111111
+MAKE my-chill-app.exe /desktop rock.m3u ironman.avi
+DEL acdc.mp3
+EXEC my-chill-app.exe
+COPY rock.m3u /music
+INFO rock.m3u
+INFO acdc.mp3
+END

@@ -1,0 +1,12 @@
+ENROLL Peter asdf
+ENROLL Ivan 1234
+AUTH Ivan 1234
+CHPASS Ivan 1234 str0ngpa$$
+AUTH Ivan 1234
+AUTH Ivan str0ngpa$$
+ENROLL Maria mimi
+CHPASS Maria mimi mimi2
+CHPASS Maria mimi2 mimi2
+CHPASS Maria mimi2 mimi
+AUTH Maria mimi2
+END
